@@ -1,0 +1,280 @@
+/*
+Theme Name: electronicmind
+Theme URI: http://jailandrade.me/
+Author: Mikhail Cruz Andrade
+Author URI: http://jailandrade.me/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: electronicmind
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+electronicmind is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+
+Resetting and rebuilding styles have been helped along thanks to the fine work of
+Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
+along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+and Blueprint http://www.blueprintcss.org/
+*/
+
+/*--------------------------------------------------------------
+1.0 Reset
+--------------------------------------------------------------*/
+/*
+* Start is a file with a list of utils that I always use in my designs
+*
+*/
+
+/*
+* About the boxes
+*/
+
+html {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	font-size: 100%;
+	line-height: 1;
+	vertical-align: middle;
+	overflow: scroll;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+*, *:before, *:after {
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+}
+
+body, div, span, article, aside,
+figure, footer, header, main, hgroup,
+menu, nav, picture, section, summary, form,
+table, h1, h2, h3, h4, h5, h6,
+a, abbr, acronym, address, cite, code,
+em, img, q, small, strong, sup, sub, tt, var,
+b, i, dl, dt, dd, ol, ul, li, fieldset, label, legend,
+caption, tbody, tfoot, thead, tr, th, td,
+details, figcaption, output, time, mark, audio, video{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: inherit;
+	outline: 0;
+	font-style: inherit;
+	font-weight: inherit;
+}
+
+
+body {
+	background-color: #fff;
+	color: #333;
+}
+
+/*
+* About images
+*/
+
+img, picture{
+	max-width: 100%;
+	height: auto;
+}
+
+/*
+* About fonts
+*/
+
+b, strong {
+	font-weight: bold;
+}
+
+/*
+* About the links
+*/
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+a:visited,
+a:hover,
+a:active{
+	color: inherit;
+	outline: 0;
+}
+
+a img {
+	border: 0;
+}
+/*
+* About forms
+*/
+
+button,
+input,
+optgroup,
+select,
+textarea {
+	color: inherit;
+	font: inherit;
+}
+
+/*
+* About lists
+*/
+
+ul, ol, menu {
+	list-style: none;
+}
+
+/*
+* About tables
+*/
+
+table {
+	border-collapse: collapse;
+	border-spacing: none;
+	empty-cells: hide;
+}
+
+td, th{
+	padding: 0;
+}
+
+/*==============================
+*
+* Styles for the Theme of ElectronicMind
+*
+=============================*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:700);
+
+.site {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.site-header {
+	background: url('assets/img/bg.jpg') repeat scroll;
+	background-size: cover;
+}
+
+.site-header,
+.section-page {
+	height: 100vh;
+	margin: 0;
+}
+
+.site-logo {
+	display: block;
+	width: 447px;
+	height: 434px;
+	margin: 0 auto;
+}
+
+.main-navigation {
+	display: block;
+	width: 100%;
+	height: 40px;
+	padding: 10px 0;
+	position: fixed;
+	bottom: 0;
+	background-color: #000;
+}
+
+.main-navigation .menu{
+	display: block;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.main-navigation li {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: -4px;
+	width: 16%;
+	text-align: center;
+	font-size: 1.1rem;
+}
+
+.main-navigation li ul {
+	display: none;
+}
+
+.nosotros {
+	background-color: rgb(170, 170, 170);
+}
+
+.historia {
+	background-color: rgb(200, 200, 200);
+}
+
+.galeria {
+	background-color: rgb(150, 150, 150);
+}
+
+.contact {
+	background-color: rgb(120, 120, 120);
+}
+
+.generos{
+	background-color: rgb(240, 240, 240);
+}
+
+.djs {
+	background-color: rgb(220, 220, 220);
+}
+
+.main-navigation a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.main-navigation a:hover {
+	border-bottom: 1px dashed #fff;
+}
+
+.page-title {
+	padding: 30px 0 40px;
+	text-align: center;
+	font-size: 1.6rem; /* 36px looks similar to Archive*/
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+
+.page .content-area {
+	width: 75%;
+	margin: 50px auto;
+}
+
+.page-content{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.site-footer {
+	background-color: #000;
+	color: #fff;
+	padding: 25px 0 50px;
+	text-align: center;
+}
+
+
+@media (max-width: 420px){
+
+	.main-navigation{
+		display:none;
+	}
+
+	.site-logo {
+		display: block;
+		width: 340px;
+		height: 330px;
+		margin: 0 auto;
+	}
+}
