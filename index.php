@@ -75,7 +75,8 @@ get_header(); ?>
 							wp_list_pages( $argslist );
 							break;
 						case "contacto":
-							[ninja_forms_display_form id=2];
+							echo [ninja_forms_display_form id=2];
+							break;
 						default:
 							echo "$content";
 					}
