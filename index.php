@@ -37,16 +37,50 @@ get_header(); ?>
 					$title = $page_data->post_title;
 					$slug = $page_data->post_name;
 					$permalink = get_page_link($page_data->ID);
-				?>
-				<div class='<?php echo "$slug" ?> section-page'><a name='<?php echo "$slug" ?> '></a>
-					<div class="page-title">
-						<h1><a href="<?php echo "$permalink";?>"><?php echo "$title" ?></a></h1>
-					</div>
-					<div class="page-content">
-						<?php echo "$content" ?>
-					</div>
+					$id = $page_data -> ID;
+			?>
+			<div class='<?php echo "$slug" ?> section-page'><a name='<?php echo "$slug" ?> '></a>
+				<div class="page-title">
+					<h1><a href="<?php echo "$permalink";?>"><?php echo "$title" ?></a></h1>
 				</div>
-				<?php } ?>
+				<div class="page-content">
+					<?php
+
+					$argslist = array(
+						'authors'      => '',
+						'child_of'     => '$id',
+						'date_format'  => get_option('date_format'),
+						'depth'        => 0,
+						'echo'         => 1,
+						'exclude'      => '',
+						'include'      => '',
+						'link_after'   => '',
+						'link_before'  => '',
+						'post_type'    => 'page',
+						'post_status'  => 'publish',
+						'show_date'    => '',
+						'sort_column'  => 'menu_order, post_title',
+									'sort_order'   => '',
+						'title_li'     => __('Pages'),
+						'walker'       => ''
+					);
+
+
+					switch($slug) {
+						case "generos":
+							wp_list_pages( $argslist );
+							break;
+						case "djs":
+							// Template of DJs
+							wp_list_pages( $argslist );
+							break;
+						default:
+							echo "$content";
+					}
+					?>
+				</div>
+			</div>
+			<?php } ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
