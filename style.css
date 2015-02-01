@@ -238,6 +238,18 @@ body{
 	overflow: auto;
 }
 
+.section-page a:hover {
+	border-bottom: 2px #222 dotted;
+}
+
+.section-page ul {
+	margin-left: 2rem;
+}
+
+.section-page ul ul {
+	margin-left: 4rem;
+}
+
 .main-navigation a {
 	color: #fff;
 	text-decoration: none;
@@ -261,7 +273,7 @@ body{
 }
 
 .page-content{
-	width: 80%;
+	width: 75%;
 	margin: 0 auto;
 }
 

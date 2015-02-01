@@ -48,7 +48,7 @@ get_header(); ?>
 
 					$argslist = array(
 						'authors'      => '',
-						'child_of'     => '$id',
+						'child_of'     => $id,
 						'date_format'  => get_option('date_format'),
 						'depth'        => 0,
 						'echo'         => 1,
@@ -61,7 +61,7 @@ get_header(); ?>
 						'show_date'    => '',
 						'sort_column'  => 'menu_order, post_title',
 									'sort_order'   => '',
-						'title_li'     => __('Pages'),
+						'title_li'     => __(''),
 						'walker'       => ''
 					);
 
@@ -75,7 +75,7 @@ get_header(); ?>
 							wp_list_pages( $argslist );
 							break;
 						case "contacto":
-							echo "Ir al formulario de contacto";
+							if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 2 ); }
 							break;
 						default:
 							echo "$content";
