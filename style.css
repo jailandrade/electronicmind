@@ -233,7 +233,7 @@ body{
 	background-color: rgb(220, 220, 220);
 }
 
-.page-content .entry-content {
+.section-page .page-content {
 	height: 50vh;
 	overflow: auto;
 }
