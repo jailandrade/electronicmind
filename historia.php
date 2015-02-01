@@ -1,8 +1,8 @@
 <?php
-/*
-Template Name: Historia
+/**
+ * Template Name: Historia
+ * @package electronicmind
 */
-
 get_header(); ?>
 
 <div id="primary" class="content-area">

@@ -1,8 +1,8 @@
 <?php
-/*
-Template Name: DJ
+/**
+ * Template Name: DJ
+ * @package electronicmind
 */
-
 get_header(); ?>
 
 <div id="primary" class="content-area">

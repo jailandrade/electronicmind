@@ -1,6 +1,7 @@
 <?php
-/*
-Template Name: Generos
+/**
+ * Template Name: Generos
+ * @package electronicmind
 */
 
 get_header(); ?>

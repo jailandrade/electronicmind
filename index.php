@@ -75,7 +75,7 @@ get_header(); ?>
 							wp_list_pages( $argslist );
 							break;
 						case "contacto":
-							echo [ninja_forms_display_form id=2];
+							echo "Ir al formulario de contacto";
 							break;
 						default:
 							echo "$content";
