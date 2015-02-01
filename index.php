@@ -74,6 +74,8 @@ get_header(); ?>
 							// Template of DJs
 							wp_list_pages( $argslist );
 							break;
+						case "contacto":
+							[ninja_forms_display_form id=2];
 						default:
 							echo "$content";
 					}
