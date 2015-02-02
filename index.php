@@ -39,7 +39,8 @@ get_header(); ?>
 					$permalink = get_page_link($page_data->ID);
 					$id = $page_data -> ID;
 			?>
-			<div class='<?php echo "$slug" ?> section-page'><a name='<?php echo "$slug" ?> '></a>
+			<div class='<?php echo "$slug" ?> section-page'>
+				<a name='<?php echo "$slug" ?> '></a>
 				<div class="page-title">
 					<h1><a href="<?php echo "$permalink";?>"><?php echo "$title" ?></a></h1>
 				</div>
