@@ -41,10 +41,10 @@ get_header(); ?>
 			?>
 			<div class='<?php echo "$slug" ?> section-page'>
 				<a name='<?php echo "$slug" ?> '></a>
-				<div class="page-title">
-					<h1><a href="<?php echo "$permalink";?>"><?php echo "$title" ?></a></h1>
+				<div class="section-header">
+					<h1 class="section-title"><a href="<?php echo "$permalink";?>"><?php echo "$title" ?></a></h1>
 				</div>
-				<div class="page-content">
+				<div class="section-content">
 					<?php
 
 					$argslist = array(
@@ -65,7 +65,6 @@ get_header(); ?>
 						'title_li'     => __(''),
 						'walker'       => ''
 					);
-
 
 					switch($slug) {
 						case "generos":

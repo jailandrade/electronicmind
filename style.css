@@ -229,30 +229,30 @@ body{
 	background-color: rgb(220, 220, 220);
 }
 
-.section-page .page-content {
+.section-page .section-content {
 	height: 60vh;
 	overflow: auto;
 }
 
 .section-page li {
-	margin-top: 5px;	
+	margin-top: 5px;
 }
 
-.section-page a {
+.section-content a {
 	padding: 5px;
 }
 
-.section-page a:hover {
+.section-content a:hover {
 	background-color: #222;
 	color: #fff;
 }
 
-.section-page ul {
-	margin-left: 2rem;
+.section-content ul {
+	margin-left: 3rem;
 }
 
-.section-page ul ul {
-	margin-left: 4rem;
+.section-content ul ul {
+	margin-left: 6rem;
 }
 
 .main-navigation a {
@@ -264,14 +264,21 @@ body{
 	border-bottom: 1px dashed #fff;
 }
 
-.page-title {
-	padding: 30px 0 40px;
+.section-header {
+	padding: 20px 0 25px;
+}
+
+.section-title{
+	opacity: 1;
 	text-align: center;
-	font-size: 2.4rem; /* 36px looks similar to Archive*/
+	font-size: 3rem;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
-	-webkit-transition-delay: 1s;
-	transition-delay: 1s;
+	-webkit-transform: scale(80%);
+	    -ms-transform: scale(80%);
+	        transform: scale(80%);
+	-webkit-transition-delay: 3s;
+	        transition-delay: 3s;
 }
 
 .page .content-area {
@@ -279,7 +286,7 @@ body{
 	margin: 50px auto;
 }
 
-.page-content{
+.section-content{
 	width: 75%;
 	margin: 0 auto;
 }
