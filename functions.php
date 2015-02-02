@@ -95,6 +95,8 @@ add_action( 'widgets_init', 'electronicmind_widgets_init' );
 function electronicmind_scripts() {
 	wp_enqueue_style( 'electronicmind-style', get_stylesheet_uri() );
 
+	wp_enqueue_script( 'electronicmind-append', get_template_directory_uri() . '/js/append.js', array( 'jquery' ) );
+
 	wp_enqueue_script( 'electronicmind-scroll', get_template_directory_uri() . '/js/scroll.js', array( 'jquery' ) );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
