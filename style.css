@@ -205,28 +205,16 @@ body{
 	display: none;
 }
 
-.nosotros {
-	background-color: rgb(190, 190, 190);
-}
-
 .historia {
 	background-color: rgb(200, 200, 200);
 }
 
-.galeria {
-	background-color: rgb(150, 150, 150);
-}
-
 .contact {
-	background-color: rgb(120, 120, 120);
+	background-color: rgb(30, 30, 30);
 }
 
 .generos{
-	background-color: rgb(240, 240, 240);
-}
-
-.djs {
-	background-color: rgb(220, 220, 220);
+	background-color: rgb(244, 244, 244);
 }
 
 .section-page .section-content {
@@ -262,6 +250,30 @@ body{
 
 .main-navigation a:hover {
 	border-bottom: 1px dashed #fff;
+}
+
+.generos .section-content-single,
+.djs .section-content-single {
+	width: 25%;
+	display: inline-block;
+	padding: 20px 4px;
+	height: 50vh;
+	background-color: #222;
+	vertical-align: top;
+	overflow: auto;
+}
+
+.section-content-single a {
+	color: #eee;
+}
+
+.generos .section-content-secundary,
+.djs .section-content-secundary {
+	width: 70%;
+	height: 50vh;
+	vertical-align: top;
+	display:inline-block;
+	background-color: #ddd;
 }
 
 .section-header {

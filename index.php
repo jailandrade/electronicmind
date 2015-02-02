@@ -40,11 +40,14 @@ get_header(); ?>
 					$id = $page_data -> ID;
 			?>
 			<div class='<?php echo "$slug" ?> section-page'>
-				<a name='<?php echo "$slug" ?> '></a>
+				<!-- <a name='<?php //echo "$slug" ?> '></a> -->
 				<div class="section-header">
-					<h1 class="section-title"><a href="<?php echo "$permalink";?>"><?php echo "$title" ?></a></h1>
+					<h1 class="section-title">
+						<a href="<?php echo "$permalink";?>"><?php echo "$title" ?></a>
+					</h1>
 				</div>
 				<div class="section-content">
+					<div class="section-content-single">
 					<?php
 
 					$argslist = array(
@@ -81,6 +84,10 @@ get_header(); ?>
 							echo "$content";
 					}
 					?>
+					</div>
+					<div class="section-content-secundary">
+
+					</div>
 				</div>
 			</div>
 			<?php } ?>
