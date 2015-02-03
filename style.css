@@ -274,6 +274,7 @@ body{
 	vertical-align: top;
 	display:inline-block;
 	background-color: #ddd;
+	poistion: relative;
 }
 
 .section-header {
@@ -286,11 +287,6 @@ body{
 	font-size: 3rem;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
-	-webkit-transform: scale(80%);
-	    -ms-transform: scale(80%);
-	        transform: scale(80%);
-	-webkit-transition-delay: 3s;
-	        transition-delay: 3s;
 }
 
 .page .content-area {
@@ -310,6 +306,18 @@ body{
 	text-align: center;
 }
 
+.section-content form {
+	overflow: scroll;
+}
+
+.button-close {
+	font-weight: bold;
+	font-size: 1.6rem;
+	position: relative;
+	top: 5px;
+	left: 5px;
+	display:none;
+}
 
 @media (max-width: 420px){
 

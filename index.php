@@ -85,8 +85,11 @@ get_header(); ?>
 					}
 					?>
 					</div>
+					<?php
+						// nothing to say
+					?>
 					<div class="section-content-secundary">
-
+						<span class="button-close">X</span>
 					</div>
 				</div>
 			</div>

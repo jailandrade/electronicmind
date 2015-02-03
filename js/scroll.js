@@ -4,7 +4,9 @@
  */
 
  ( function($) {
-   $('.section-header').scroll(function(){
-     console.log('Hola mundo soy un efecto scroll');
-   })
+   $(document).ready(function(){
+     $('.section-header').scroll(function(){
+       console.log('Hola mundo soy un efecto scroll');
+     });
+   });
  } )(jQuery);
