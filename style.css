@@ -181,6 +181,7 @@ body{
 	position: fixed;
 	bottom: 0;
 	background-color: #000;
+	z-index: 2000;
 }
 
 .main-navigation .menu{
@@ -304,6 +305,7 @@ body{
 }
 
 .site-footer {
+	z-index: 1000;
 	background-color: #000;
 	color: #fff;
 	padding: 25px 0 50px;
