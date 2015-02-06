@@ -74,7 +74,7 @@ get_header(); ?>
 									<?php wp_list_pages( $argslist ); ?>
 								</div>
 								<div class="section-content-secundary">
-									<div class="content-secundary-page"></div>
+									<div class="content_generos_page"></div>
 								</div>
 							<?php break;
 							case "blog":
@@ -98,7 +98,7 @@ get_header(); ?>
 									<?php wp_list_pages( $argslist ); ?>
 								</div>
 								<div class="section-content-secundary">
-									<div class="content-secundary-page"></div>
+									<div class="content_djs_page"></div>
 								</div>
 							<?php break;
 							case "contacto":

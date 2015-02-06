@@ -279,7 +279,8 @@ body{
 	vertical-align: top;
 	display:inline-block;
 	background-color: #ddd;
-	poistion: relative;
+	position: relative;
+	overflow: auto;
 }
 
 .section-content-secundary .site-header,
