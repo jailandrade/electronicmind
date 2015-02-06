@@ -166,6 +166,9 @@ body{
 	margin: 50px auto;
 }
 
+body.custom-background{
+	background-size: 100wh 90vh;
+}
 
 /* Header Rules */
 
@@ -362,16 +365,39 @@ body{
 	padding: 40px 0;
 }
 
-@media (max-width: 420px){
+@media (min-width: 320px) and (max-width: 420px){
 
 	.main-navigation{
 		display:none;
 	}
 
+	.section-page:first-child{
+		margin-top: 120vh;
+	}
+
 	.site-logo {
 		display: block;
-		width: 340px;
-		height: 330px;
+		width: 320px;
+		height: 320px;
 		margin: 0 auto;
 	}
+
+	.home .post {
+		width: 90%;
+		display: block;
+		padding-right: 0;
+	}
+
+	.generos .section-content-single,
+	.djs .section-content-single {
+		width: 90%;
+		display: block;
+		padding: 20px 4px;
+		height: 50vh;
+	}
+
+	.generos .section-content-secundary,
+	.djs .section-content-secundary {
+		width: 90%;
+		display: block;
 }
