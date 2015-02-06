@@ -20,7 +20,7 @@ function the_posts_navigation() {
 	}
 	?>
 	<nav class="navigation posts-navigation" role="navigation">
-		<h2 class="screen-reader-text"><?php _e( 'Posts navigation', 'electronicmind' ); ?></h2>
+		<h4 class="screen-reader-text"><?php _e( 'Posts navigation', 'electronicmind' ); ?></h4>
 		<div class="nav-links">
 
 			<?php if ( get_next_posts_link() ) : ?>

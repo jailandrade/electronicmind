@@ -148,6 +148,10 @@ td, th{
 * Styles for the Theme of ElectronicMind
 *
 =============================*/
+
+
+/* General Rules */
+
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
 @import url(http://fonts.googleapis.com/css?family=Montserrat:700);
 
@@ -157,16 +161,13 @@ body{
 	line-height: 1.6;
 }
 
-.section-page {
-	height: 100vh;
-	margin: 0;
-	-webkit-transition: all 3s ease-in-out;
-	        transition: all 3s ease-in-out;
+.page .content-area {
+	width: 75%;
+	margin: 50px auto;
 }
 
-.section-page:first-child {
-	margin-top: 80vh
-}
+
+/* Header Rules */
 
 .site-logo {
 	display: block;
@@ -206,25 +207,52 @@ body{
 	display: none;
 }
 
-.historia {
-	background-color: rgb(200, 200, 200);
+.main-navigation a {
+	color: #fff;
+	text-decoration: none;
 }
 
-.contact {
-	background-color: rgb(30, 30, 30);
+.main-navigation a:hover {
+	border-bottom: 1px dashed #fff;
 }
 
-.generos{
-	background-color: rgb(244, 244, 244);
+
+/* Section Rules */
+
+.section-page {
+	height: 100vh;
+	margin: 0;
+	-webkit-transition: all 3s ease-in-out;
+	        transition: all 3s ease-in-out;
+}
+
+.section-page:first-child {
+	margin-top: 80vh
 }
 
 .section-page .section-content {
-	height: 60vh;
+	height: 75vh;
 	overflow: auto;
 }
 
 .section-page li {
 	margin-top: 5px;
+}
+
+.section-header {
+	padding: 25px 0;
+}
+
+.section-title{
+	text-align: center;
+	font-size: 3rem;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+
+.section-content{
+	width: 75%;
+	margin: 0 auto;
 }
 
 .section-content a {
@@ -244,13 +272,12 @@ body{
 	margin-left: 6rem;
 }
 
-.main-navigation a {
-	color: #fff;
-	text-decoration: none;
+.contact {
+	background-color: rgb(30, 30, 30);
 }
 
-.main-navigation a:hover {
-	border-bottom: 1px dashed #fff;
+.generos{
+	background-color: rgb(244, 244, 244);
 }
 
 .generos .section-content-single,
@@ -281,40 +308,19 @@ body{
 	vertical-align: top;
 	display:inline-block;
 	background-color: #ddd;
-	position: relative;
 	overflow: auto;
-}
-
-.section-content-secundary .site-header,
-.section-content-secundary .site-footer {
-	display: none;
 }
 
 .section-content-secundary .generos {
 	background-color: #ddd;
 }
 
-.section-header {
-	padding: 20px 0 25px;
+.section-content form {
+	overflow: scroll;
 }
 
-.section-title{
-	opacity: 1;
-	text-align: center;
-	font-size: 3rem;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
-}
 
-.page .content-area {
-	width: 75%;
-	margin: 50px auto;
-}
-
-.section-content{
-	width: 75%;
-	margin: 0 auto;
-}
+/* Footer Rules */
 
 .site-footer {
 	z-index: 1000;
@@ -324,20 +330,10 @@ body{
 	text-align: center;
 }
 
-.section-content form {
-	overflow: scroll;
-}
 
-.button-close {
-	font-weight: bold;
-	font-size: 1.6rem;
-	position: relative;
-	top: 5px;
-	left: 5px;
-	display:none;
-}
+/* Blog Rules */
 
-.post {
+.home .post {
 	width: 30%;
 	display: inline-block;
 	vertical-align: top;
@@ -350,6 +346,20 @@ body{
 
 .post-header a:hover{
 	color: #fff !important;
+}
+
+/* Single Post and Single Page  */
+
+.page .site-content,
+.single-post .site-content {
+	background-color: #fff;
+}
+
+.page .content-area,
+.single-post .content-area {
+	width: 60%;
+	margin: 0 auto;
+	padding: 40px 0;
 }
 
 @media (max-width: 420px){

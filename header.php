@@ -25,10 +25,6 @@
 			<img class="site-logo" src="<?php echo bloginfo('template_directory');?>/assets/img/logo.png">
 		</div><!-- .site-branding -->
 
-
-		<nav id="site-navigation" class="main-navigation" role="navigation">
-			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
-		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">

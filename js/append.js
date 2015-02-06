@@ -13,7 +13,7 @@
       var page_link = $(this).attr("href");
 
       $('.content_generos_page').html("Abriendo");
-      $('.content_generos_page').load(page_link);
+      $('.content_generos_page').load(page_link + " .content-area");
     });
 
     anchor_djs.click(function(event){
@@ -21,9 +21,8 @@
       var page_link = $(this).attr("href");
 
       $('.content_djs_page').html("Abriendo");
-      $('.content_djs_page').load(page_link);
+      $('.content_djs_page').load(page_link + " .content-area");
     });
-
 
   });
 
