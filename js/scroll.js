@@ -5,8 +5,14 @@
 
  ( function($) {
    $(document).ready(function(){
-     $('.section-header').scroll(function(){
-       console.log('Hola mundo soy un efecto scroll');
+
+     $(window).scroll(function(e){
+       parallax();
      });
+
+     function parallax(){
+       var scrolled = $(window).scrollTop();
+       
+     }
    });
  } )(jQuery);

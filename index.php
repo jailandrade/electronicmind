@@ -48,48 +48,48 @@ get_header(); ?>
 				</div>
 				<div class="section-content">
 					<div class="section-content-single">
-					<?php
+						<?php
 
-					$argslist = array(
-						'authors'      => '',
-						'child_of'     => $id,
-						'date_format'  => get_option('date_format'),
-						'depth'        => 0,
-						'echo'         => 1,
-						'exclude'      => '',
-						'include'      => '',
-						'link_after'   => '',
-						'link_before'  => '',
-						'post_type'    => 'page',
-						'post_status'  => 'publish',
-						'show_date'    => '',
-						'sort_column'  => 'menu_order, post_title',
-									'sort_order'   => '',
-						'title_li'     => __(''),
-						'walker'       => ''
-					);
+						$argslist = array(
+							'authors'      => '',
+							'child_of'     => $id,
+							'date_format'  => get_option('date_format'),
+							'depth'        => 0,
+							'echo'         => 1,
+							'exclude'      => '',
+							'include'      => '',
+							'link_after'   => '',
+							'link_before'  => '',
+							'post_type'    => 'page',
+							'post_status'  => 'publish',
+							'show_date'    => '',
+							'sort_column'  => 'menu_order, post_title',
+										'sort_order'   => '',
+							'title_li'     => __(''),
+							'walker'       => ''
+						);
 
-					switch($slug) {
-						case "generos":
-							wp_list_pages( $argslist );
-							break;
-						case "djs":
-							// Template of DJs
-							wp_list_pages( $argslist );
-							break;
-						case "contacto":
-							if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 2 ); }
-							break;
-						default:
-							echo "$content";
-					}
-					?>
+						switch($slug) {
+							case "generos":
+								wp_list_pages( $argslist );
+								break;
+							case "djs":
+								// Template of DJs
+								wp_list_pages( $argslist );
+								break;
+							case "contacto":
+								if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 2 ); }
+								break;
+							default:
+								echo "$content";
+						}
+						?>
 					</div>
-					<?php
-						// nothing to say
-					?>
 					<div class="section-content-secundary">
 						<span class="button-close">X</span>
+						<div class="content-secundary-page">
+							<?php echo "$content"; ?>
+						</div>
 					</div>
 				</div>
 			</div>

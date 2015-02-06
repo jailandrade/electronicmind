@@ -157,11 +157,6 @@ body{
 	line-height: 1.6;
 }
 
-.site-header {
-	background: url('assets/img/bg.jpg') repeat scroll;
-	background-size: cover;
-}
-
 .site-header,
 .section-page {
 	height: 100vh;
@@ -265,6 +260,12 @@ body{
 
 .section-content-single a {
 	color: #eee;
+	cursor: pointer;
+}
+
+.section-content-single a:hover{
+	background-color: #444;
+	color: #fff;
 }
 
 .generos .section-content-secundary,

@@ -14,7 +14,6 @@
       // content_secundary.append();
       button_close.click(function(){
         button_close.css("display", "none");
-        content_secundary.empty();
       });
     });
   });
