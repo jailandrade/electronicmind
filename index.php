@@ -47,7 +47,6 @@ get_header(); ?>
 					</h1>
 				</div>
 				<div class="section-content">
-					<div class="section-content-single">
 						<?php
 
 						$argslist = array(
@@ -70,9 +69,14 @@ get_header(); ?>
 						);
 
 						switch($slug) {
-							case "generos":
-								wp_list_pages( $argslist );
-								break;
+							case "generos": ?>
+								<div class="section-content-single">
+									<?php wp_list_pages( $argslist ); ?>
+								</div>
+								<div class="section-content-secundary">
+									<div class="content-secundary-page"></div>
+								</div>
+							<?php break;
 							case "blog":
 								if ( have_posts() ) :
 									while ( have_posts() ) : the_post(); ?>
@@ -89,10 +93,14 @@ get_header(); ?>
 									else: _e( 'Sorry, no posts matched your criteria.' );
 								endif;
 								break;
-							case "djs":
-								// Template of DJs
-								wp_list_pages( $argslist );
-								break;
+							case "djs":?>
+								<div class="section-content-single">
+									<?php wp_list_pages( $argslist ); ?>
+								</div>
+								<div class="section-content-secundary">
+									<div class="content-secundary-page"></div>
+								</div>
+							<?php break;
 							case "contacto":
 								if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 2 ); }
 								break;
@@ -100,13 +108,6 @@ get_header(); ?>
 								echo "$content";
 						}
 						?>
-					</div>
-					<div class="section-content-secundary">
-						<span class="button-close">X</span>
-						<div class="content-secundary-page">
-							<?php echo "$content"; ?>
-						</div>
-					</div>
 				</div>
 			</div>
 			<?php } ?>

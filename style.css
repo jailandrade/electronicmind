@@ -282,6 +282,15 @@ body{
 	poistion: relative;
 }
 
+.section-content-secundary .site-header,
+.section-content-secundary .site-footer {
+	display: none;
+}
+
+.section-content-secundary .generos {
+	background-color: #ddd;
+}
+
 .section-header {
 	padding: 20px 0 25px;
 }
