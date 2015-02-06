@@ -157,16 +157,19 @@ body{
 	line-height: 1.6;
 }
 
-.site-header,
 .section-page {
 	height: 100vh;
 	margin: 0;
 }
 
+.section-page:first-child {
+	margin-top: 80vh
+}
+
 .site-logo {
 	display: block;
-	width: 447px;
-	height: 434px;
+	width: 440px;
+	height: 430px;
 	margin: 0 auto;
 }
 
@@ -318,6 +321,21 @@ body{
 	top: 5px;
 	left: 5px;
 	display:none;
+}
+
+.post {
+	width: 30%;
+	display: inline-block;
+	vertical-align: top;
+	padding-right: 15px;
+}
+
+.post-header a{
+	color: #333 !important;
+}
+
+.post-header a:hover{
+	color: #fff !important;
 }
 
 @media (max-width: 420px){
