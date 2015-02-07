@@ -222,8 +222,6 @@ body.custom-background{
 .section-page {
 	height: 100vh;
 	margin: 0;
-	-webkit-transition: all 1s ease-in-out;
-	        transition: all 1s ease-in-out;
 }
 
 .generos.section-page,
@@ -263,8 +261,9 @@ body.custom-background{
 }
 
 .section-content{
-	width: 75%;
+	width: 85%;
 	margin: 0 auto;
+	text-align:justify;
 }
 
 .section-content a {
@@ -376,7 +375,7 @@ body.custom-background{
 .single-post .content-area {
 	width: 60%;
 	margin: 0 auto;
-	padding: 40px 5px;
+	padding: 40px 5px	;
 }
 
 @media (min-width: 320px) and (max-width: 520px){
