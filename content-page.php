@@ -23,6 +23,5 @@
 
 	<footer class="entry-footer">
 		<?php edit_post_link( __( 'Edit', 'electronicmind' ), '<span class="edit-link">', '</span>' ); ?>
-		<div><a href="<?php echo home_url(); ?>">Volver a la pagina de Inicio</a></div>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->

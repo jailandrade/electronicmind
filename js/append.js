@@ -8,25 +8,31 @@
 
     jQuery.ajaxSetup({cache:false});
 
-    if( $( 'window' ).width() >= 520 ){
-
-      anchor_generos.click(function(event){
+    anchor_generos.click(function(event){
       event.preventDefault();
       var page_link = $(this).attr("href");
 
-      $('.content_generos_page').html("Abriendo");
-      $('.content_generos_page').load(page_link + " .content-area");
+      if( $(window).width() > 520 ) {
+        $('.content_generos_page').html("Abriendo");
+        $('.content_generos_page').load(page_link + " .content-area");
+      }
+      else {
+        window.location.replace($(this).attr("href"));
+      }
+    });
 
-      });
+    anchor_djs.click(function(event){
+      event.preventDefault();
+      var page_link = $(this).attr("href");
 
-      anchor_djs.click(function(event){
-        event.preventDefault();
-        var page_link = $(this).attr("href");
-
+      if( $(window).width() > 520 ) {
         $('.content_djs_page').html("Abriendo");
         $('.content_djs_page').load(page_link + " .content-area");
-      });
-    }
+      }
+      else {
+        window.location.replace($(this).attr("href"));
+      }
+    });
 
 
 
