@@ -353,13 +353,14 @@ body.custom-background{
 	width: 30%;
 	display: inline-block;
 	vertical-align: top;
-	padding-right: 30px;
+	padding: 0 20px;
 }
 
 .post-header a{
 	color: #333 !important;
-	font-size: 1.2rem;
-	text-align: left;
+	font-size: 1.65rem;
+	text-align: start !important;
+	font-weight: 700;
 }
 
 .post-header a:hover{
