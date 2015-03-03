@@ -287,6 +287,11 @@ body.custom-background{
 	background-color: rgb(30, 30, 30);
 }
 
+.ninja-forms-cont {
+	width: 50%;
+	margin: 0 auto;
+}
+
 .page .generos{
 	background-color: rgb(244, 244, 244);
 }
