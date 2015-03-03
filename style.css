@@ -232,7 +232,7 @@ body.custom-background{
 
 .blog.section-page,
 .contacto.section-page{
-	height: 150vh;
+	height: 140vh;
 }
 
 .section-page:first-child {
@@ -247,7 +247,8 @@ body.custom-background{
 
 .blog .section-content,
 .contacto .section-content {
-	height: 100vh;
+	height: 90vh;
+	overflow: none;
 }
 
 .section-page li {
