@@ -230,6 +230,11 @@ body.custom-background{
 	background: url('assets/img/footer_lodyas.png') repeat scroll;
 }
 
+.blog.section-page,
+.contacto.section-page{
+	height: 140vh;
+}
+
 .section-page:first-child {
 	margin-top: 500px;
 }
