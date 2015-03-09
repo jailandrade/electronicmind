@@ -238,6 +238,7 @@ body.custom-background{
 
 .section-page:first-child {
 	margin-top: 400px;
+	height: 80vh;
 }
 
 .section-page .section-content {
@@ -330,6 +331,11 @@ body.custom-background{
 	color: #fff;
 }
 
+.aligncenter {
+	display: block;
+	margin: 0 auto;
+}
+
 .generos .section-content-secundary,
 .djs .section-content-secundary {
 	width: 70%;
@@ -361,6 +367,19 @@ body.custom-background{
 	color: #fff;
 	padding: 25px 0 50px;
 	text-align: center;
+}
+
+.site-footer .web,
+.site-footer .social,
+.site-footer .subscribe {
+	width: 33%;
+	display: inline-block;
+	vertical-align:top;
+}
+
+.social li {
+	display: inline-block;
+	vertical-align: top;
 }
 
 

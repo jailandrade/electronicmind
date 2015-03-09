@@ -29,7 +29,7 @@
         $('.content_djs_page').html("Abriendo");
         $('.content_djs_page').load(page_link + " .content-area");
       }
-      else {
+      else {€
         window.location.replace($(this).attr("href"));
       }
     });
