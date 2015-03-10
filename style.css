@@ -397,7 +397,7 @@ body.custom-background{
 }
 
 .post .entry-footer {
-	border: 1px double #000;
+	border-top: 1px double #000;
 	margin-top: 10px;
 	padding-top: 10px;
 }
@@ -411,7 +411,7 @@ body.custom-background{
 }
 
 .screen-reader-text {
-	font-size: 1rem;
+	font-size: 1.4rem;
 }
 
 .post-header a{
@@ -426,11 +426,6 @@ body.custom-background{
 }
 
 /* Single Post and Single Page  */
-
-.single .post {
-	margin-top: 200px;
-}
-
 .page .site-content,
 .single-post .site-content {
 	background-color: #fff;
