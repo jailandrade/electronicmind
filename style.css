@@ -371,6 +371,11 @@ body.custom-background{
 	text-align: center;
 }
 
+.site-footbar {
+	background-color: #555;
+	color: #fff;
+}
+
 .site-footer .webs,
 .site-footer .social,
 .site-footer .subscribe {
@@ -403,8 +408,15 @@ body.custom-background{
 }
 
 .entry-footer .cat-links {
-	margin-right: 15px;
+	margin-right: 5px;
 }
+	.cat-links a:after{
+		content: "#";
+	}
+
+	.cat-links a {
+		font-weight: bold;
+	}
 
 .navigation.post-navigation {
 	margin-top: 20px;

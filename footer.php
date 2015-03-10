@@ -14,6 +14,7 @@
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-footbar">
 			<div class="webs">
+				<h3>Webs Amigas</h3>
 				<ul>
 					<li><a>Some page</a></li>
 					<li><a>Some page</a></li>
@@ -24,6 +25,7 @@
 			</div>
 			<div class="subscribe"></div>
 			<div class="social">
+				<h3>Siguenos en: </h3>
 				<ul>
 					<li class="facebook-icon"><a href="http://www.facebook.com/ElecMind" target="_blank"><img src="<?php echo bloginfo('template_directory');?>/assets/img/facebook.png"></a></li>
 					<li class="twitter-icon"><a href="http://www.twitter.com/#!/Elecmind" target="_blank"><img src="<?php echo bloginfo('template_directory');?>/assets/img/twitter.png"></a></li>
