@@ -82,7 +82,7 @@ get_header(); ?>
 									while ( have_posts() ) : the_post(); ?>
 										<div class="post">
 											<div class="post-header">
-												<h2><a href="<?php the_permalink();?>" rel="bookmark"><?php the_title();?></a></h2>
+												<h3><a href="<?php the_permalink();?>" rel="bookmark"><?php the_title();?></a></h3>
 											</div>
 											<div class="post-body">
 												<?php the_content() ?>

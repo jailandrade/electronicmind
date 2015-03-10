@@ -159,7 +159,7 @@ body{
 }
 
 .page .content-area {
-	width: 75%;
+	width: 80%;
 	margin: 50px auto;
 }
 
@@ -236,14 +236,12 @@ body.custom-background{
 	background: url('assets/img/footer_lodyas.png') repeat scroll;
 }
 
-.blog.section-page,
-.contacto.section-page{
-	height: 140vh;
-	margin-top: 100px;
+.blog.section-page {
+	height: 150vh;
 }
 
-.section-page:first-child {
-	height: 100vh;
+.contacto.section-page{
+	height: 120vh;
 }
 
 .section-page .section-content {
@@ -312,7 +310,7 @@ body.custom-background{
 input[type="submit"] {
 	background-color: #000;
 	padding: 10px;
-	width: 200px;
+	width: 250px;
 	color: #fff;
 	border: none;
 	border-radius: 3px;
@@ -383,11 +381,10 @@ input[type="submit"]:hover {
 	background-color: #000;
 	color: #fff;
 	padding: 25px 0 50px;
-	text-align: center;
 }
 
-.site-footbar {
-	color: #fff;
+.site-info {
+	text-align: center;
 }
 
 .site-footer .webs,
@@ -415,7 +412,7 @@ input[type="submit"]:hover {
 	padding: 0 15px;
 }
 
-.home .post p:nth-child(n+2) {
+.home .post p:nth-child(n+3) {
 	display: none;
 }
 
@@ -428,10 +425,6 @@ input[type="submit"]:hover {
 .entry-footer .cat-links {
 	margin-right: 5px;
 }
-	.cat-links a:after{
-		content: "#";
-	}
-
 	.cat-links a {
 		font-weight: bold;
 	}
@@ -442,11 +435,12 @@ input[type="submit"]:hover {
 
 .screen-reader-text {
 	font-size: 1.4rem;
+	font-weight: bold;
 }
 
 .post-header a{
 	color: #333 !important;
-	font-size: 1.65rem;
+	font-size: 1.5rem;
 	font-weight: 700;
 }
 
@@ -474,7 +468,7 @@ input[type="submit"]:hover {
 	}
 
 	.section-page:first-child{
-		margin-top: 120vh;
+		margin-top: 100vh;
 	}
 
 	.site-logo {
