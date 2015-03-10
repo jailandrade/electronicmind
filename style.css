@@ -183,6 +183,8 @@ body.custom-background{
 	padding: 15px 0;
 	position: fixed;
 	bottom: 0;
+	left: 0;
+	right: 0;
 	background-color: #000;
 	z-index: 2000;
 }
@@ -369,7 +371,7 @@ body.custom-background{
 	text-align: center;
 }
 
-.site-footer .web,
+.site-footer .webs,
 .site-footer .social,
 .site-footer .subscribe {
 	width: 33%;
@@ -380,6 +382,8 @@ body.custom-background{
 .social li {
 	display: inline-block;
 	vertical-align: top;
+	margin-right: 5px;
+	cursor: pointer;
 }
 
 
@@ -390,6 +394,24 @@ body.custom-background{
 	display: inline-block;
 	vertical-align: top;
 	padding: 0 20px;
+}
+
+.post .entry-footer {
+	border: 1px double #000;
+	margin-top: 10px;
+	padding-top: 10px;
+}
+
+.entry-footer .cat-links {
+	margin-right: 15px;
+}
+
+.navigation.post-navigation {
+	margin-top: 20px;
+}
+
+.screen-reader-text {
+	font-size: 1rem;
 }
 
 .post-header a{
@@ -405,6 +427,10 @@ body.custom-background{
 
 /* Single Post and Single Page  */
 
+.single .post {
+	margin-top: 200px;
+}
+
 .page .site-content,
 .single-post .site-content {
 	background-color: #fff;
@@ -414,7 +440,7 @@ body.custom-background{
 .single-post .content-area {
 	width: 60%;
 	margin: 0 auto;
-	padding: 40px 5px	;
+	padding: 40px 5px;
 }
 
 @media (min-width: 320px) and (max-width: 520px){
