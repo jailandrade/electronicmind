@@ -227,13 +227,21 @@ body.custom-background{
 
 .section-page {
 	height: 100vh;
-	margin: 0;
+	margin: 100px;
+}
+
+.section-page:first-child {
+	height: 70vh;
 }
 
 .generos.section-page,
 .djs.section-page {
 	/* Dark Sharp Edges made by Carlos Aguilar and downloaded from http://subtlepatterns.com/ */
 	background: url('assets/img/footer_lodyas.png') repeat scroll;
+}
+
+.historia.section-page {
+	height: 120vh;
 }
 
 .blog.section-page {

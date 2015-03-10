@@ -22,7 +22,7 @@
 
 	<header id="masthead" class="site-header" role="banner">
 		<div class="site-branding">
-			<a href="<?php get_site_url(); ?>"><img class="site-logo" src="<?php echo bloginfo('template_directory');?>/assets/img/logo.png"></a>
+			<a href="<?php get_bloginfo('url'); ?>"><img class="site-logo" src="<?php echo bloginfo('template_directory');?>/assets/img/logo.png"></a>
 		</div><!-- .site-branding -->
 
 	</header><!-- #masthead -->
