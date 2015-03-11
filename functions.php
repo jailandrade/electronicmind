@@ -80,7 +80,7 @@ add_action( 'after_setup_theme', 'electronicmind_setup' );
  */
 function electronicmind_widgets_init() {
 	register_sidebar( array(
-		'name'          => __( 'Sidebar', 'electronicmind' ),
+		'name'          => __( 'Sidebar Left', 'electronicmind' ),
 		'id'            => 'sidebar-1',
 		'description'   => '',
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
@@ -89,7 +89,7 @@ function electronicmind_widgets_init() {
 		'after_title'   => '</h1>',
 	) );
 	register_sidebar( array(
-		'name'          => __( 'Sidebar Subscribe', 'electronicmind' ),
+		'name'          => __( 'Sidebar Center', 'electronicmind' ),
 		'id'            => 'sidebar-3',
 		'description'   => '',
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
@@ -98,7 +98,7 @@ function electronicmind_widgets_init() {
 		'after_title'   => '</h1>',
 	) );
 	register_sidebar( array(
-		'name'          => __( 'Sidebar Blogroll', 'electronicmind' ),
+		'name'          => __( 'Sidebar Right', 'electronicmind' ),
 		'id'            => 'sidebar-2',
 		'description'   => '',
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',

@@ -403,7 +403,8 @@ input[type="submit"]:hover {
 }
 
 .home .post p:nth-child(n+3),
-.home .post ul {
+.home .post ul,
+.home .post ol {
 	display: none;
 }
 
@@ -449,6 +450,23 @@ input[type="submit"]:hover {
 	margin: 0 auto;
 	padding: 40px 5px;
 }
+
+/*
+	Widgets
+*/
+
+.sidebar-footer .widget-title {
+	color: #f47555;
+	font-size: 1.5rem;
+}
+
+.sidebar-footer li {
+	font-size: 1.2rem;
+}
+
+
+
+
 
 @media (min-width: 320px) and (max-width: 520px){
 
