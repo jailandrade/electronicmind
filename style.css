@@ -216,7 +216,7 @@ body.custom-background{
 	padding: 0 5px;
 }
 
-.main-navigation a:hover {
+.main-navigation li:hover {
 	background-color: #e32636;
 }
 
@@ -224,7 +224,7 @@ body.custom-background{
 /* Section Rules */
 
 .section-page {
-	padding: 75px 0;
+	padding: 50px 0;
 }
 
 .section-page:first-child {
@@ -256,6 +256,10 @@ body.custom-background{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 }
+
+	.section-title a:hover {
+		text-decoration: underline;
+	}
 
 .section-content{
 	width: 80%;
@@ -452,7 +456,11 @@ input[type="submit"]:hover {
 .entry-content p,
 .entry-content ol,
 .entry-content ul{
-	margin: 4px 0;
+	margin: 5px 0;
+}
+
+.entry-content {
+	padding-bottom: 25px;
 }
 
 .page .content-area,
@@ -477,6 +485,9 @@ input[type="submit"]:hover {
 	margin-bottom: 4px;
 }
 
+.sidebar-footer a:hover {
+	text-decoration: underline;
+}
 
 
 
