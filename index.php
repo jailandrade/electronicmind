@@ -74,7 +74,9 @@ get_header(); ?>
 									<?php wp_list_pages( $argslist ); ?>
 								</div>
 								<div class="section-content-secundary">
-									<div class="content_generos_page"></div>
+									<div class="content_generos_page">
+										<p>Da click en uno de los generos de la izquierda, recuerda que puedes hacer scroll para ver mas.</p>
+									</div>
 								</div>
 							<?php break;
 							case "blog":
@@ -98,7 +100,8 @@ get_header(); ?>
 									<?php wp_list_pages( $argslist ); ?>
 								</div>
 								<div class="section-content-secundary">
-									<div class="content_djs_page"></div>
+									<div class="content_djs_page">
+									</div>
 								</div>
 							<?php break;
 							case "contacto":

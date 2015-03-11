@@ -13,7 +13,7 @@
       var page_link = $(this).attr("href");
 
       if( $(window).width() > 520 ) {
-        $('.content_generos_page').html("Abriendo");
+        $('.content_generos_page').html("Abriendo la definición");
         $('.content_generos_page').load(page_link + " .content-area");
       }
       else {
@@ -26,7 +26,7 @@
       var page_link = $(this).attr("href");
 
       if( $(window).width() > 520 ) {
-        $('.content_djs_page').html("Abriendo");
+        $('.content_djs_page').html("Abriendo la definición");
         $('.content_djs_page').load(page_link + " .content-area");
       }
       else {

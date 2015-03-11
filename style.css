@@ -215,15 +215,15 @@ body.custom-background{
 	text-decoration: none;
 }
 
-.main-navigation a:hover {
-	border-bottom: 1px dashed #fff;
+.main-navigation li a:hover {
+	background-color: #e32636;
 }
 
 
 /* Section Rules */
 
 .section-page {
-	margin: 75px 0;
+	padding: 75px 0;
 }
 
 .section-page:first-child {
@@ -290,7 +290,7 @@ body.custom-background{
 input[type="submit"] {
 	background-color: #000;
 	padding: 10px;
-	width: 250px;
+	width: 350px;
 	color: #fff;
 	border: none;
 	border-radius: 3px;
@@ -309,7 +309,7 @@ input[type="submit"]:hover {
 .djs .section-content-single {
 	width: 25%;
 	display: inline-block;
-	padding: 20px 4px;
+	padding: 20px 10px;
 	background-color: #222;
 	vertical-align: top;
 	height: 800px;
@@ -387,7 +387,7 @@ input[type="submit"]:hover {
 .social li {
 	display: inline-block;
 	vertical-align: top;
-	margin-right: 5px;
+	margin-right: 7px;
 	cursor: pointer;
 }
 
@@ -401,7 +401,8 @@ input[type="submit"]:hover {
 	padding: 0 15px;
 }
 
-.home .post p:nth-child(n+3) {
+.home .post p:nth-child(n+3),
+.post ul + p {
 	display: none;
 }
 
@@ -428,14 +429,12 @@ input[type="submit"]:hover {
 }
 
 .post-header a{
-	color: #333 !important;
+	color: #fff !important;
 	font-size: 1.5rem;
 	font-weight: 700;
+	background-color: #000;
 }
 
-.post-header a:hover{
-	color: #fff !important;
-}
 
 /* Single Post and Single Page  */
 .page .site-content,
