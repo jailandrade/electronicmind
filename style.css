@@ -458,10 +458,12 @@ input[type="submit"]:hover {
 .sidebar-footer .widget-title {
 	color: #f47555;
 	font-size: 1.5rem;
+	font-weight: bold;
 }
 
 .sidebar-footer li {
 	font-size: 1.2rem;
+	margin-bottom: 3px;
 }
 
 
