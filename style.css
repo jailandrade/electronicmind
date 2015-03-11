@@ -402,7 +402,7 @@ input[type="submit"]:hover {
 }
 
 .home .post p:nth-child(n+3),
-.post ul + p {
+.home .post ul {
 	display: none;
 }
 
