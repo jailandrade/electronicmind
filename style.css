@@ -422,11 +422,11 @@ input[type="submit"]:hover {
 	}
 
 .navigation.post-navigation {
-	margin-top: 20px;
+	margin: 25px 0;
 }
 
 .screen-reader-text {
-	font-size: 1.4rem;
+	font-size: 1.5rem;
 	font-weight: bold;
 }
 
@@ -442,6 +442,17 @@ input[type="submit"]:hover {
 .page .site-content,
 .single-post .site-content {
 	background-color: #fff;
+}
+
+.page .entry-header,
+.single .entry-header {
+	margin-bottom: 15px;
+}
+
+.entry-content p,
+.entry-content ol,
+.entry-content ul{
+	margin: 4px 0;
 }
 
 .page .content-area,
@@ -463,7 +474,7 @@ input[type="submit"]:hover {
 
 .sidebar-footer li {
 	font-size: 1.2rem;
-	margin-bottom: 3px;
+	margin-bottom: 4px;
 }
 
 
