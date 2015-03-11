@@ -14,10 +14,18 @@
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-footbar">
 			<div class="webs">
-
+				<?php if ( is_active_sidebar( 'sidebar-2' ) ): ?>
+					<div class="sidebar-footer">
+						<?php dynamic_sidebar( 'sidebar-2' )?>
+					</div>
+				<?php endif;?>
 			</div>
 			<div class="subscribe">
-			
+				<?php if ( is_active_sidebar( 'sidebar-3' ) ): ?>
+					<div class="sidebar-footer">
+						<?php dynamic_sidebar( 'sidebar-3' )?>
+					</div>
+				<?php endif;?>
 			</div>
 			<div class="social">
 				<h3>Siguenos en: </h3>

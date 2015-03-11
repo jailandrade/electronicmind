@@ -164,7 +164,7 @@ body{
 }
 
 body.custom-background{
-	background-size: 100wh 90vh;
+	background-size: 100wh 100vh;
 }
 
 /* Header Rules */
@@ -330,6 +330,7 @@ input[type="submit"]:hover {
 .generos .section-content-secundary,
 .djs .section-content-secundary {
 	width: 70%;
+	height: 100%;
 	vertical-align: top;
 	display:inline-block;
 	background-color: #ddd;
