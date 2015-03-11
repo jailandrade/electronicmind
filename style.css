@@ -213,9 +213,10 @@ body.custom-background{
 .main-navigation a {
 	color: #fff;
 	text-decoration: none;
+	padding: 0 5px;
 }
 
-.main-navigation li a:hover {
+.main-navigation a:hover {
 	background-color: #e32636;
 }
 
