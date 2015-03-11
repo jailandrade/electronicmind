@@ -363,6 +363,11 @@ input[type="submit"]:hover {
 	color: #fff;
 }
 
+.sidebar-footer {
+	width: 80%;
+	margin: 0 auto;
+}
+
 .site-info {
 	text-align: center;
 }
