@@ -226,12 +226,15 @@ body.custom-background{
 	margin: 75px 0;
 }
 
+.section-page:first-child {
+	margin-top: 200px;
+}
+
 .generos.section-page,
 .djs.section-page {
 	/* Dark Sharp Edges made by Carlos Aguilar and downloaded from http://subtlepatterns.com/ */
 	background: url('assets/img/footer_lodyas.png') repeat scroll;
 }
-
 
 .section-page li {
 	margin-top: 5px;
@@ -309,7 +312,8 @@ input[type="submit"]:hover {
 	padding: 20px 4px;
 	background-color: #222;
 	vertical-align: top;
-
+	height: 800px;
+	overflow: scroll;
 }
 
 .section-content-single a {
@@ -330,10 +334,10 @@ input[type="submit"]:hover {
 .generos .section-content-secundary,
 .djs .section-content-secundary {
 	width: 70%;
-	height: 100%;
+	height: 800px;
 	vertical-align: top;
 	display:inline-block;
-	background-color: #ddd;
+	background-color: #ccc;
 	overflow: auto;
 	-webkit-overflow-scrolling: touch;
 }

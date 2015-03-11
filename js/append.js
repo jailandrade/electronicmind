@@ -29,15 +29,10 @@
         $('.content_djs_page').html("Abriendo");
         $('.content_djs_page').load(page_link + " .content-area");
       }
-      else {€
+      else {
         window.location.replace($(this).attr("href"));
       }
     });
-
-
-
-      // se abrira un contenedor especial que abarcara el tamaño del viewport y mostrara e contenido
-      // se creara un boton para cerrar este contenedor
 
   });
 
