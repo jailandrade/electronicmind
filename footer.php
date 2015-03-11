@@ -14,16 +14,11 @@
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-footbar">
 			<div class="webs">
-				<h3>Webs Amigas</h3>
-				<ul>
-					<li><a>Some page</a></li>
-					<li><a>Some page</a></li>
-					<li><a>Some page</a></li>
-					<li><a>Some page</a></li>
-					<li><a>Some page</a></li>
-				</ul>
+
 			</div>
-			<div class="subscribe"></div>
+			<div class="subscribe">
+			
+			</div>
 			<div class="social">
 				<h3>Siguenos en: </h3>
 				<ul>

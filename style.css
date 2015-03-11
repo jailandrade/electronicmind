@@ -227,7 +227,7 @@ body.custom-background{
 
 .section-page {
 	height: 100vh;
-	margin: 100px;
+	margin: 75px 0;
 }
 
 .section-page:first-child {
@@ -240,16 +240,13 @@ body.custom-background{
 	background: url('assets/img/footer_lodyas.png') repeat scroll;
 }
 
-.historia.section-page {
+.historia.section-page,
+.contacto.section-pag {
 	height: 120vh;
 }
 
 .blog.section-page {
-	height: 150vh;
-}
-
-.contacto.section-page{
-	height: 120vh;
+	height: 130vh;
 }
 
 .section-page .section-content {
@@ -322,6 +319,7 @@ input[type="submit"] {
 	color: #fff;
 	border: none;
 	border-radius: 3px;
+	cursor: pointer;
 }
 
 input[type="submit"]:hover {
@@ -389,6 +387,10 @@ input[type="submit"]:hover {
 	background-color: #000;
 	color: #fff;
 	padding: 25px 0 50px;
+}
+
+.site-footer a {
+	color: #fff;
 }
 
 .site-info {
