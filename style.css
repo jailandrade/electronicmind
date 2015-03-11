@@ -169,9 +169,6 @@ body.custom-background{
 
 /* Header Rules */
 
-.site-header {
-	height: 100vh;
-}
 
 .site-logo {
 	display: block;
@@ -226,12 +223,7 @@ body.custom-background{
 /* Section Rules */
 
 .section-page {
-	height: 100vh;
 	margin: 75px 0;
-}
-
-.section-page:first-child {
-	height: 70vh;
 }
 
 .generos.section-page,
@@ -240,26 +232,6 @@ body.custom-background{
 	background: url('assets/img/footer_lodyas.png') repeat scroll;
 }
 
-.historia.section-page,
-.contacto.section-pag {
-	height: 120vh;
-}
-
-.blog.section-page {
-	height: 130vh;
-}
-
-.section-page .section-content {
-	height: 70vh;
-	overflow: auto;
-	-webkit-overflow-scrolling: touch;
-}
-
-.blog .section-content,
-.contacto .section-content {
-	height: 90vh;
-	overflow: none;
-}
 
 .section-page li {
 	margin-top: 5px;
@@ -335,11 +307,9 @@ input[type="submit"]:hover {
 	width: 25%;
 	display: inline-block;
 	padding: 20px 4px;
-	height: 60vh;
 	background-color: #222;
 	vertical-align: top;
-	overflow: auto;
-	-webkit-overflow-scrolling: touch;
+
 }
 
 .section-content-single a {
@@ -360,7 +330,6 @@ input[type="submit"]:hover {
 .generos .section-content-secundary,
 .djs .section-content-secundary {
 	width: 70%;
-	height: 60vh;
 	vertical-align: top;
 	display:inline-block;
 	background-color: #ddd;
@@ -477,9 +446,6 @@ input[type="submit"]:hover {
 		display:none;
 	}
 
-	.section-page:first-child{
-		margin-top: 100vh;
-	}
 
 	.site-logo {
 		display: block;
@@ -504,7 +470,6 @@ input[type="submit"]:hover {
 		margin: 0 auto;
 		display: block;
 		padding: 20px 4px;
-		height: 75vh;
 
 	}
 
