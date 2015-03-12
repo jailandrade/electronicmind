@@ -310,6 +310,11 @@ input[type="submit"]:hover {
 	background-color: rgb(244, 244, 244);
 }
 
+.historia .section-content {
+	height: 600px;
+	overflow: scroll;
+}
+
 .generos .section-content-single,
 .djs .section-content-single {
 	width: 25%;
