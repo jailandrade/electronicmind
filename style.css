@@ -322,7 +322,7 @@ input[type="submit"]:hover {
 	padding: 20px 10px;
 	background-color: #222;
 	vertical-align: top;
-	height: 800px;
+	height: 600px;
 	overflow: scroll;
 }
 
@@ -344,7 +344,7 @@ input[type="submit"]:hover {
 .generos .section-content-secundary,
 .djs .section-content-secundary {
 	width: 70%;
-	height: 800px;
+	height: 600px;
 	vertical-align: top;
 	display:inline-block;
 	background-color: #ccc;
