@@ -1,6 +1,14 @@
 (function ($) {
   $(document).ready(function(){
 
+    $('.generos.section-page').find('.section-title').find('a').click(function(event){
+      event.preventDefault();
+    });
+
+    $('.dj.section-page').find('.section-title').find('a').click(function(event){
+      event.preventDefault();
+    })
+
     var anchor_generos = $('.generos').find('.section-content-single').find('a');
     var anchor_djs = $('.djs').find('.section-content-single').find('a');
 
