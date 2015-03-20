@@ -465,7 +465,7 @@ input[type="submit"]:hover {
 
 .page a:hover,
 .single a:hover {
-	border-box: 1px solid #000;
+	border-bottom: 1px solid #e32636;
 }
 
 .entry-content p,
