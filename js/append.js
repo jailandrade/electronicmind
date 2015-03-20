@@ -1,11 +1,11 @@
 (function ($) {
   $(document).ready(function(){
 
-    $('.generos.section-page').find('.section-title').find('a').click(function(event){
+    $('.generos').find('.section-title').find('a').click(function(event){
       event.preventDefault();
     });
 
-    $('.dj.section-page').find('.section-title').find('a').click(function(event){
+    $('.dj').find('.section-title').find('a').click(function(event){
       event.preventDefault();
     })
 
