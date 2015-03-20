@@ -544,3 +544,12 @@ input[type="submit"]:hover {
 	.djs .section-content-secundary {
 		display: none;
 }
+
+.stie-radio {
+	height: 20px;
+	position:fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 5000;
+}
