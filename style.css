@@ -164,7 +164,7 @@ body{
 }
 
 body.custom-background{
-	background-size: 100wh 100vh;
+	background-size: 100% auto;
 }
 
 /* Header Rules */
@@ -423,7 +423,12 @@ input[type="submit"]:hover {
 	padding-top: 10px;
 }
 
-.entry-footer .cat-links {
+.updated {
+	display: none;
+}
+
+.entry-meta span,
+.entry-footer span {
 	margin-right: 5px;
 }
 	.cat-links a {
@@ -543,8 +548,17 @@ input[type="submit"]:hover {
 	.generos .section-content-secundary,
 	.djs .section-content-secundary {
 		display: none;
-}
+	}
 
+	.webs,
+	.subscribe,
+	.social {
+		display: block;
+		width: 100%;
+		padding: 10px;
+	}
+
+}
 .site-radio {
 	height: 20px;
 	position:fixed;
