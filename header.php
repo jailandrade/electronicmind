@@ -23,7 +23,7 @@
 
 	<div id="radio" class="site-radio">
 		<audio controls>
-			<object id="dewplayer-vol" type="application/x-shockwave-flash" data="http://www.mexiserver.com/reproductores/dewplayer-vol.swf?mp3=http://204.12.193.98:8315/;stream.nsv">
+			<object id="dewplayer-vol" type="application/x-shockwave-flash" data="http://www.mexiserver.com/reproductores/dewplayer-vol.swf">
 			<param name="wmode" value="transparent" />
 			<param name="movie" value="http://www.mexiserver.com/reproductores/dewplayer-vol.swf?mp3=http://204.12.193.98:8315/;stream.nsv" />
 			</object>
