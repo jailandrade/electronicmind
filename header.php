@@ -22,13 +22,12 @@
 <div id="page" class="hfeed site">
 
 	<div id="radio" class="site-radio">
-		<audio src="http://www.mexiserver.com/reproductores/dewplayer-vol.swf?autoplay=true&amp;mp3=http://204.12.193.98:8315/;stream.nsv">
-
+		<audio controls>
+			<object id="dewplayer-vol" width="100%" height="20" type="application/x-shockwave-flash" data="http://www.mexiserver.com/reproductores/dewplayer-vol.swf?autoplay=true&amp;mp3=http://204.12.193.98:8315/;stream.nsv">
+			<param name="wmode" value="transparent" />
+			<param name="movie" value="http://www.mexiserver.com/reproductores/dewplayer-vol.swf?autoplay=true&amp;mp3=http://204.12.193.98:8315/;stream.nsv" />
+			</object>
 		</audio>
-		<!-- <object id="dewplayer-vol" width="100%" height="20" type="application/x-shockwave-flash" data="http://www.mexiserver.com/reproductores/dewplayer-vol.swf?autoplay=true&amp;mp3=http://204.12.193.98:8315/;stream.nsv">
-		<param name="wmode" value="transparent" />
-		<param name="movie" value="http://www.mexiserver.com/reproductores/dewplayer-vol.swf?autoplay=true&amp;mp3=http://204.12.193.98:8315/;stream.nsv" />
-		</object> -->
 	</div>
 
 	<header id="masthead" class="site-header" role="banner">
