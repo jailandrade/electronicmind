@@ -386,9 +386,9 @@ input[type="submit"]:hover {
 	text-align: center;
 }
 
-.site-footer .webs,
-.site-footer .social,
-.site-footer .subscribe {
+.webs,
+.social,
+.subscribe {
 	width: 33%;
 	display: inline-block;
 	vertical-align:top;
@@ -550,15 +550,16 @@ input[type="submit"]:hover {
 		display: none;
 	}
 
-	.webs,
-	.subscribe,
-	.social {
+	.site-footer .webs,
+	.site-footer .subscribe,
+	.site-footer .social {
 		display: block;
 		width: 100%;
 		padding: 10px;
 	}
-
 }
+
+
 .site-radio {
 	height: 20px;
 	position:fixed;
