@@ -224,11 +224,11 @@ body.custom-background{
 /* Section Rules */
 
 .section-page {
-	padding: 50px 0;
+	padding: 40px 0;
 }
 
 .section-page:first-child {
-	margin-top: 200px;
+	margin-top: 100px;
 }
 
 .generos.section-page,
@@ -473,7 +473,7 @@ input[type="submit"]:hover {
 	border-bottom: 2px solid #e32636;
 }
 
-.page .entry-content a
+.page .entry-content a,
 .single .entry-content a {
 	background-color: #e32636;
 	padding: 2px 3px;
@@ -568,10 +568,10 @@ input[type="submit"]:hover {
 
 
 .site-radio {
-	height: 20px;
+	height: 30px;
 	position:fixed;
 	top: 0px;
 	left: 0px;
 	right: 0px;
-	z-index: 5000;
+	z-index: 999999;
 }
