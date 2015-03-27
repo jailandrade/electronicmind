@@ -468,9 +468,16 @@ input[type="submit"]:hover {
 	font-size: 2.4rem;
 }
 
-.page a:hover,
-.single a:hover {
+.page .entry-header a:hover,
+.single .entry-header a:hover {
 	border-bottom: 2px solid #e32636;
+}
+
+.page .entry-content a
+.single .entry-content a {
+	background-color: #e32636;
+	padding: 2px 3px;
+	color: #fff;
 }
 
 .entry-content p,
