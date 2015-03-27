@@ -409,8 +409,12 @@ input[type="submit"]:hover {
 }
 .site-blog .post {
 	display: inline-block;
-	width: 48%;
+	width: 45%;
 	vertical-align: top;
+}
+
+.site-blog .post:nth-child(2n) {
+	margin-left: 5px;
 }
 
 .site-blog .post-header {
@@ -427,6 +431,8 @@ input[type="submit"]:hover {
 
 .site-blog .post-content {
 	margin-top: 20px;
+	text-align: justify;
+
 }
 
 
@@ -603,5 +609,12 @@ input[type="submit"]:hover {
 	top: 0px;
 	left: 0px;
 	right: 0px;
+	width: 100%;
+	background-color: #000;
 	z-index: 999999;
+}
+
+.site-navigation-em {
+	font-size: 1rem;
+	font-weight: 400;
 }

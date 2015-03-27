@@ -43,7 +43,7 @@ get_header(); ?>
 				<!-- <a name='<?php //echo "$slug" ?> '></a> -->
 				<div class="section-header">
 					<h1 class="section-title">
-						<a href="<?php echo "$permalink";?>"><?php echo "$title" ?></a>
+						<a href="<?php esc_url($permalink);?>"><?php echo "$title" ?></a>
 					</h1>
 				</div>
 				<div class="section-content">
@@ -84,7 +84,7 @@ get_header(); ?>
 									while ( have_posts() ) : the_post(); ?>
 										<div class="post">
 											<div class="post-header">
-												<h3><a href="<?php the_permalink();?>" rel="bookmark"><?php the_title();?></a></h3>
+												<h3><a href="<?php esc_url(the_permalink());?>" rel="bookmark"><?php the_title();?></a></h3>
 											</div>
 											<div class="post-body">
 												<?php the_content() ?>

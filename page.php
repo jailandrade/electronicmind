@@ -15,7 +15,8 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 
 		<div class="site-navigation-em">
-			</div>
+			<span><a href="<?php bloginfo('url'); ?>">&laquo; Volver al Inicio</a></span>
+		</div>
 
 		<main id="main" class="site-main" role="main">
 
