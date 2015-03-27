@@ -37,7 +37,7 @@
 						<a href="<?php esc_url(http://www.twitter.com/#!/Elecmind); ?>" target="_blank"><img src="<?php echo bloginfo('template_directory');?>/assets/img/twitter.png"></a>
 					</li>
 					<li class="googleplus-icon">
-						<a href="<?php esc_url(https://plus.google.com/u/0/109919203968486042477/posts) ?>" target="_blank"><img src="<?php echo bloginfo('template_directory');?>/assets/img/googleplus.png"></a>
+						<a href="<?php esc_url(https://plus.google.com/u/0/109919203968486042477/posts); ?>" target="_blank"><img src="<?php echo bloginfo('template_directory');?>/assets/img/googleplus.png"></a>
 					</li>
 					<li class="soundcloud-icon">
 						<a href="<?php esc_url(https://soundcloud.com/elecmind); ?>" target="_blank"><img src="<?php echo bloginfo('template_directory');?>/assets/img/soundcloud.png"></a>

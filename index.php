@@ -84,7 +84,7 @@ get_header(); ?>
 									while ( have_posts() ) : the_post(); ?>
 										<div class="post">
 											<div class="post-header">
-												<h3><a href="<?php esc_url(the_permalink());?>" rel="bookmark"><?php the_title();?></a></h3>
+												<h3><a href="<?php echo "the_permalink()" ;?>" rel="bookmark"><?php the_title();?></a></h3>
 											</div>
 											<div class="post-body">
 												<?php the_content() ?>
