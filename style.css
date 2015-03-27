@@ -258,7 +258,7 @@ body.custom-background{
 }
 
 	.section-title a:hover {
-		border-bottom: 2px solid #ccc;
+		border-bottom: 2px solid #000;
 	}
 
 .section-content{
@@ -404,6 +404,33 @@ input[type="submit"]:hover {
 
 /* Blog Rules */
 
+.site-blog {
+	padding: 20px 0;
+}
+.site-blog .post {
+	display: inline-block;
+	width: 48%;
+	vertical-align: top;
+}
+
+.site-blog .post-header {
+	background-color: #000;
+	padding: 10px 0;
+	text-align: center;
+}
+
+.site-blog .post-title a {
+	color: #fff;
+	font-family: 'Montserrat' sans-serif;
+	font-weight: 700;
+}
+
+.site-blog .post-content {
+	margin-top: 20px;
+}
+
+
+
 .home .post {
 	width: 30%;
 	display: inline-block;
@@ -463,21 +490,24 @@ input[type="submit"]:hover {
 	margin-bottom: 40px;
 }
 
-.page .entry-title
-.single .entry-title {
-	font-size: 2.4rem;
+.page .entry-title,
+.single .entry-title{
+	font-size: 3rem;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
 }
 
+
 .page .entry-header a:hover,
-.single .entry-header a:hover {
+.single .entry-header a:hover,
+.page .entry-footer a:hover,
+.single .entry-footer a:hover {
 	border-bottom: 2px solid #e32636;
 }
 
 .page .entry-content a,
 .single .entry-content a {
-	background-color: #e32636;
-	padding: 2px 3px;
-	color: #fff;
+	color: #e32636;
 }
 
 .entry-content p,
