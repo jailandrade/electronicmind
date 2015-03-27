@@ -597,7 +597,7 @@ input[type="submit"]:hover {
 }
 
 
-.site-radio {
+.site-radio audio{
 	height: 30px;
 	position:fixed;
 	top: 0px;
