@@ -49,8 +49,6 @@
 						<a href="<?php esc_url('http://www.mixcloud.com/elecmind/'); ?>" target="_blank"><img src="<?php echo bloginfo('template_directory');?>/assets/img/mixcloud.png"></a>
 					</li>
 				</ul>
-			</div>
-			<div class="radio-buttons">
 				<h3>Tambien puedes escucharnos en:</h3>
 				<a href="http://centovacast.mexiserver.com:2199/tunein/electronic.pls"> <img alt="" src="https://electmind.files.wordpress.com/2015/03/winamp-logo-e1426830607462.jpg" /></a>
 				<a href="http://centovacast.mexiserver.com:2199/tunein/electronic.asx"> <img alt="" src="https://electmind.files.wordpress.com/2015/03/wm-e1426830598827.jpg" /></a>
