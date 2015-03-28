@@ -394,6 +394,11 @@ input[type="submit"]:hover {
 	vertical-align:top;
 }
 
+.social h3,
+.radio-buttons h3 {
+	margin-top: 20px;
+}
+
 .social li {
 	display: inline-block;
 	vertical-align: top;
