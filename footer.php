@@ -21,11 +21,7 @@
 				<?php endif;?>
 			</div>
 			<div class="subscribe">
-				<?php if ( is_active_sidebar( 'sidebar-3' ) ): ?>
-					<div class="sidebar-footer">
-						<?php dynamic_sidebar( 'sidebar-3' )?>
-					</div>
-				<?php endif;?>
+				<?php echo ('[mc4wp_form]'); ?>
 			</div>
 			<div class="social">
 				<h3>Siguenos en: </h3>
