@@ -367,11 +367,19 @@ input[type="submit"]:hover {
 /* Footer Rules */
 
 .form-control {
-	margin: 10px 0;
+	margin: 10px 5px;
 	color: #fff;
 }
 
-
+.form-control input[type="submit"] {
+	background-color: #F47555;
+	padding: 10px;
+	width: 350px;
+	color: #fff;
+	border: none;
+	border-radius: 2px;
+	cursor: pointer;
+}
 
 .site-footer {
 	z-index: 2000;
