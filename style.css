@@ -366,6 +366,13 @@ input[type="submit"]:hover {
 
 /* Footer Rules */
 
+.form-control {
+	margin: 10px 0;
+	color: #fff;
+}
+
+
+
 .site-footer {
 	z-index: 2000;
 	background-color: #000;
